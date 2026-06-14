@@ -28,8 +28,6 @@ const OrderSuccess = lazy(() => import('./pages/OrderSuccess.jsx'));
 const Login = lazy(() => import('./pages/Login.jsx'));
 const Signup = lazy(() => import('./pages/Signup.jsx'));
 const MyOrders = lazy(() => import('./pages/MyOrders.jsx'));
-const About = lazy(() => import('./pages/About.jsx'));
-const Contact = lazy(() => import('./pages/Contact.jsx'));
 const CareGuide = lazy(() => import('./pages/CareGuide.jsx'));
 const PrivacyPolicy = lazy(() => import('./pages/PrivacyPolicy.jsx'));
 const Terms = lazy(() => import('./pages/Terms.jsx'));
@@ -107,8 +105,6 @@ export default function App() {
             }
           />
 
-          <Route path="/about" element={<StorePage><About /></StorePage>} />
-          <Route path="/contact" element={<StorePage><Contact /></StorePage>} />
           <Route path="/care-guide" element={<StorePage><CareGuide /></StorePage>} />
           <Route path="/privacy-policy" element={<StorePage><PrivacyPolicy /></StorePage>} />
           <Route path="/terms" element={<StorePage><Terms /></StorePage>} />

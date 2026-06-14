@@ -20,8 +20,6 @@ const footerCopy = {
     quickLinks: [
       { to: '/', label: 'Home' },
       { to: '/shop', label: 'Shop' },
-      { to: '/about', label: 'About' },
-      { to: '/contact', label: 'Contact' },
     ],
     supportLinks: [
       { to: '/care-guide', label: 'Care Guide' },
@@ -43,8 +41,6 @@ const footerCopy = {
     quickLinks: [
       { to: '/', label: 'الرئيسية' },
       { to: '/shop', label: 'المتجر' },
-      { to: '/about', label: 'من نحن' },
-      { to: '/contact', label: 'تواصل معنا' },
     ],
     supportLinks: [
       { to: '/care-guide', label: 'دليل العناية' },

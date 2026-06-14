@@ -77,7 +77,7 @@ export default function Home() {
               </Link>
 
               <Link
-                to="/about"
+                to="/care-guide"
                 className="inline-flex items-center justify-center rounded-full border border-white/26 bg-white/10 px-6 py-3 font-bold text-white backdrop-blur transition hover:bg-white"
                 onMouseEnter={(event) => {
                   event.currentTarget.style.color = '#4F5B3A';
@@ -86,7 +86,7 @@ export default function Home() {
                   event.currentTarget.style.color = '#FFFFFF';
                 }}
               >
-                {t('readStory')}
+                {t('careGuide')}
               </Link>
             </div>
 

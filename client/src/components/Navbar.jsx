@@ -10,8 +10,6 @@ import api from '../api/axios.js';
 const navItems = [
   { to: '/', key: 'home' },
   { to: '/shop', key: 'shop' },
-  { to: '/about', key: 'about' },
-  { to: '/contact', key: 'contact' },
 ];
 
 export default function Navbar() {
